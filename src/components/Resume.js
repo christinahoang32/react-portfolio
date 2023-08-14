@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Resume.css'; 
-import pdf from '../Assets/example.png'
+import pdf from '../Assets/resume-sample.pdf'
 
 const Resume = () => (
   <section className="resume-section">

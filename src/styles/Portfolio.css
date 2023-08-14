@@ -1,0 +1,11 @@
+.icon {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+  }
+
+  .projects {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
