@@ -1,10 +1,14 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import '../styles/Header.css'; 
 
 const Navigation = () => (
   <nav>
-    <NavLink to="/about" activeClassName="active">About Me</NavLink>
-    {/* Add links for Portfolio, Contact, and Resume */}
+    <HashLink smooth to="#about" activeClassName="active">About Me</HashLink>
+    <HashLink smooth to="#resume" activeClassName="active">Resume</HashLink>
+    <HashLink smooth to="#portfolio" activeClassName="active">Portfolio</HashLink>
+    <HashLink smooth to="#contact" activeClassName="active">Contact Me</HashLink>
   </nav>
 );
 

@@ -1,0 +1,27 @@
+
+.resume-section {
+    padding: 2rem;
+    background-color: #f7f7f7;
+  }
+  
+  .resume-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .resume-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .proficiencies-list {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  .proficiencies-list li {
+    margin-bottom: 0.5rem;
+    list-style: disc;
+  }
+  

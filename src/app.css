@@ -1,0 +1,117 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a basic background color */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Create a centered container */
+  .app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Style the navigation links */
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  /* Highlight the active link */
+  .active {
+    color: #007bff;
+  }
+  
+  /* Style section headers */
+  h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  /* Style content sections */
+  section {
+    margin-top: 20px;
+  }
+  
+  /* Style the contact form */
+  form {
+    display: grid;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style portfolio project items */
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    margin-top: 10px;
+  }
+  
+  .project .links {
+    margin-top: 10px;
+  }
+  
+  .project .links a {
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project .links a:hover {
+    text-decoration: underline;
+  }

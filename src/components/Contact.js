@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/Contact.css';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -6,6 +7,23 @@ const Contact = () => {
   const [message, setMessage] = useState('');
   const [isNameRequired, setIsNameRequired] = useState(false);
   const [isEmailInvalid, setIsEmailInvalid] = useState(false);
+
+  const handleNameBlur = () => {
+    if (!name) {
+      setIsNameRequired(true);
+    } else {
+      setIsNameRequired(false);
+    }
+  };
+
+
+  const handleEmailBlur = () => {
+    if (!/^\S+@\S+\.\S+$/.test(email)) {
+      setIsEmailInvalid(true);
+    } else {
+      setIsEmailInvalid(false);
+    }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section id = "contact">
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <div className="input-group">
@@ -30,6 +48,8 @@ const Contact = () => {
             type="text"
             id="name"
             value={name}
+            onBlur = {handleNameBlur}
+            
             onChange={(e) => setName(e.target.value)}
           />
           {isNameRequired && <span className="error">Name is required</span>}
@@ -41,6 +61,7 @@ const Contact = () => {
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            onBlur = {handleEmailBlur}
           />
           {isEmailInvalid && <span className="error">Invalid email address</span>}
         </div>

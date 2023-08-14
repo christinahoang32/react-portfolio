@@ -1,0 +1,52 @@
+/* Header.css */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #040301;
+    padding: 1rem 0;
+    position: fixed;
+    width: 800px;
+    top: 0;
+    z-index: 1001;
+    margin-top: 0px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffd700; /* Change the color on hover */
+  }
+  
+  nav .active {
+    color: #ffd700; /* Highlight the active link */
+  }
+  
+  header {
+    background-color: #0a0a09;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+    position: fixed;
+    width: 800px;
+    top: 0;
+    z-index: 1001;
+  }
+  
+  header h1 {
+   position:absolute;
+   bottom: 5px;
+   left: 35%;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    cursor: pointer; /* Add a pointer cursor to the header title */
+  }
+  
+  
