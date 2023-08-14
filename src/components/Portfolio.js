@@ -26,7 +26,7 @@ const projects = [
   {
     title: 'Movie Database',
     imageUrl: 'https://github.com/christinahoang32/debug-thugs/raw/main/assets/images/mainPage.jpg',
-    deployedUrl: 'https://devcenter.heroku.com/articles/git',
+    deployedUrl: 'https://christinahoang32.github.io/debug-thugs/',
     githubUrl: 'https://github.com/christinahoang32/debug-thugs',
   },
   
@@ -55,7 +55,7 @@ const Portfolio = () => (
           <h3>{project.title}</h3>
           <div className="links">
             <a href={project.deployedUrl} target="_blank" rel="noopener noreferrer">
-              Heroku
+              Deployed Here
               </a>
             <a href={project.githubUrl}target="_blank" rel="noopener noreferrer"> <FaGithub className="icon"/> </a>
           </div>
