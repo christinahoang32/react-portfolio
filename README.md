@@ -9,6 +9,7 @@ The purpose of this is to create a portfolio with react that has my information,
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [TechnologiesUsed](#technologies-used)
 
 
 ## Installation
@@ -29,6 +30,11 @@ https://github.com/christinahoang32/react-portfolio
 
 https://christinahoang32.github.io/react-portfolio/
 
+## Technologies used 
+React
+Hashlink
+Github Pages
+CSS
 
 ## Credits
 
